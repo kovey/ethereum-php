@@ -18,16 +18,16 @@ use Ethereum\EtherscanApi;
 use Ethereum\TransactionEvent;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
-class EthTest extends BaseTestCase
+class UsdtTest extends BaseTestCase
 {
     const INFURA_KEY = '8275f7b717754213a1c07e22939b324d';
-    const ETHERSCAN_KEY = 'KJU6S4DP2AFPA91T6XEKCEDJUA6V5R9MD5';
+    const ETHERSCAN_KEY = 'YXXNZIP9U6YYDF5N7P6CSXXR8MQI4Z5BIR';
 
     const SUCCESS_TX_HASH = '0x79889c5685e5145994a0ae862f8491114d3de6a5103fd91fbff23da72973d0ed';
     const FAIL_TX_HASH = '0x5f200172cacb4c0ec02e18ea15c989408a3980b1c049dfd6dda68ec831449180';
 
     const WALLET_PRIVATE_KEY = '54ea92b87eb8c95980864707044e2a4e976392c8b20f1e6e4291afb70a5264d3';
-    const WALLET_ADDRESS = '0xcbec8ec09f94c80852e85693547f72b99ea2f327';
+    const WALLET_ADDRESS = '0x44Bad390e785e12c92bf9B9C4671C89B79f7959A';
 
     private function getEth()
     {

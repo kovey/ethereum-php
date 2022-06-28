@@ -47,7 +47,6 @@ class EtherscanApi implements ProxyApi {
         if (isset($res['result'])) {
             return $res['result'];
         } else {
-            var_dump($res);
             return false;
         }
     }

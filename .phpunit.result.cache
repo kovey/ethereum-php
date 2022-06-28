@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\ERC20Test::testBalance":4,"Tests\\ERC20Test::testTransfer":4,"Tests\\ERC20Test::testBalanceApi":4},"times":{"Tests\\ERC20Test::testBalanceApi":1.195,"Tests\\ERC20Test::testBalance":0.008,"Tests\\ERC20Test::testTransfer":1.201,"Tests\\EthTest::testBalance":0.695,"Tests\\UsdtTest::testBalance":0.527}}

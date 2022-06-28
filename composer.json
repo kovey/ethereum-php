@@ -20,20 +20,26 @@
         "sop/crypto-types": "^0.2.1",
         "kornrunner/keccak": "^1.0",
         "phpseclib/phpseclib": "~2.0.11",
-        "simplito/elliptic-php": "^1.0",
+        "simplito/elliptic-php": "^1.0.9",
         "ext-gmp": "*",
         "ext-openssl": "*",
         "ext-json": "*",
-        "web3p/ethereum-tx": "^0.3.4",
+        "web3p/ethereum-tx": "^0.4.3",
         "furqansiddiqui/bip39-mnemonic-php": "^0.1.2",
         "guzzlehttp/guzzle": "^6.0 || ^7.0",
         "ext-bcmath": "*",
-        "nanqi/minter-php-bip-44": "^1.0",
+        "nanqi/minter-php-bip-44": "^1.1",
         "league/event": "^2.2"
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/kovey/minter-php-bip-44"
+        }
+    ],
     "require-dev": {
         "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "^7.5.4"
+        "phpunit/phpunit": "^9"
     },
     "autoload": {
         "psr-4": {
