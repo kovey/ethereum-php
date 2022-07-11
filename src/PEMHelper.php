@@ -145,6 +145,6 @@ class PEMHelper
         $ec = new EC('secp256k1');
         $pubkey = $ec->recoverPubKey($hash, $sign, $recid);
 
-        return $address == self::pubKeyToAddress($pubkey);
+        return $address == self::publicKeyToAddress($pubkey->encode('hex'));
     }
 }
